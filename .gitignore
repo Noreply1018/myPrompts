@@ -1,0 +1,11 @@
+# OS / 编辑器的缓存文件
+.DS_Store     # Mac 系统缓存
+Thumbs.db     # Windows 系统缓存
+.vscode/      # VS Code 的配置文件夹
+.idea/        # JetBrains 系列（如 PyCharm）的配置文件夹
+
+# 备份/导出文件
+*.zip         # 忽略所有 .zip 文件
+*.rar         # 忽略所有 .rar 文件
+*.7z          # 忽略所有 .7z 压缩包
+*.bak         # 忽略所有 .bak 备份文件
