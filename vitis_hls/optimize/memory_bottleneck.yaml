@@ -27,15 +27,23 @@ template: |
   3) 输出可直接粘贴的 pragma patch（含放置位置与简短注释）
   4) 评估对 II/BRAM/LUT/DSP 的预期影响与风险
 
-  输出格式（必须遵守）：
+  请严格按以下 Markdown 结构输出：
   ### 一、瓶颈分析
   - 现象：
   - 归因：
   ### 二、优化策略
-  - …
+  - 建议1：
+  - 建议2：
   ### 三、Pragma 建议（带注释）
   ```cpp
   // 在 <文件/函数/循环> 处
-  #pragma HLS ARRAY_PARTITION variable=<name> <dim> <type>
-  #pragma HLS BIND_STORAGE variable=<buf> type=ram_2p impl=bram
-  #pragma HLS STREAM variable=<fifo> depth=<N>
+  #pragma HLS ARRAY_PARTITION variable=<name> <dim> <type>  // 说明
+  #pragma HLS BIND_STORAGE variable=<buf> type=ram_2p impl=bram  // 说明
+  #pragma HLS STREAM variable=<fifo> depth=<N>  // 说明
+  ### 四、预期影响评估
+  - II 预期变化：
+  - 资源预期变化（BRAM/LUT/DSP）：
+  - 风险与注意事项：
+  
+  请确保输出内容简洁、专业，避免冗余信息。
+  如果信息不足，请说明需要补充哪些关键点。
