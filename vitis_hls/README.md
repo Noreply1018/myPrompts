@@ -8,10 +8,16 @@
 ## 📁 目录结构
 
 prompts/
+
 └─ vitis_hls/
+
  └─ optimize/
+ 
   ├─ memory_bottleneck.yaml # 访存瓶颈优化
+  
   ├─ compute_scheduling.yaml # 计算/调度优化（II、资源）
+  
   ├─ dataflow_rewrite.yaml # Dataflow / 模块级流水
+  
   └─ router_entry.yaml # 统一入口路由器（自动选模板）
   
