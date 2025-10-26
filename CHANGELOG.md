@@ -3,6 +3,9 @@
 > 记录 myPrompts 仓库的所有重要变更。
 
 ---
+## 2025-10-26
+- 重写了 `others\task-instructor.md`（版本号 2.0.0）
+- 删去 `vitis_hls\optimize`，准备重写，添加新的提示词
 ## 2025-10-16
 - 为提示词 `others\task-instructor.md` 增添了 `首次回复策略`（版本号 1.1.0）
 
